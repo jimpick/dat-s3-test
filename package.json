@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dat-http": "^1.0.0",
+    "dat-http": "jimpick/dat-http#s3-with-cache",
     "dat-node": "^3.5.6",
     "hyperdiscovery": "^7.0.0",
     "hyperdrive": "^9.12.0"

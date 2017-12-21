@@ -19,7 +19,7 @@ httpDrive.on('ready', () => {
   })
   var sw = swarm(httpDrive)
   sw.on('connection', function (peer, type) {
-    console.log('got', peer, type) 
+    // console.log('got', peer, type)
     console.log('connected to', sw.connections.length, 'peers')
     peer.on('close', function () {
       console.log('peer disconnected')
